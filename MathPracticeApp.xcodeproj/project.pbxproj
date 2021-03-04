@@ -11,6 +11,8 @@
 		333B295C25EE86CB00A3BFE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333B295B25EE86CB00A3BFE3 /* ContentView.swift */; };
 		333B295E25EE86CF00A3BFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333B295D25EE86CF00A3BFE3 /* Assets.xcassets */; };
 		333B296125EE86CF00A3BFE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333B296025EE86CF00A3BFE3 /* Preview Assets.xcassets */; };
+		33BEEA8825F070D500EE3976 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BEEA8725F070D500EE3976 /* Question.swift */; };
+		33BEEA8C25F0713D00EE3976 /* QuestionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BEEA8B25F0713D00EE3976 /* QuestionsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		333B295D25EE86CF00A3BFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333B296025EE86CF00A3BFE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		333B296225EE86CF00A3BFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BEEA8725F070D500EE3976 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		33BEEA8B25F0713D00EE3976 /* QuestionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				333B295925EE86CB00A3BFE3 /* MathPracticeAppApp.swift */,
+				33BEEA8725F070D500EE3976 /* Question.swift */,
+				33BEEA8B25F0713D00EE3976 /* QuestionsList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BEEA8825F070D500EE3976 /* Question.swift in Sources */,
+				33BEEA8C25F0713D00EE3976 /* QuestionsList.swift in Sources */,
 				333B295C25EE86CB00A3BFE3 /* ContentView.swift in Sources */,
 				333B295A25EE86CB00A3BFE3 /* MathPracticeAppApp.swift in Sources */,
 			);
