@@ -52,8 +52,8 @@
 		333B295825EE86CB00A3BFE3 /* MathPracticeApp */ = {
 			isa = PBXGroup;
 			children = (
-				333B295925EE86CB00A3BFE3 /* MathPracticeAppApp.swift */,
-				333B295B25EE86CB00A3BFE3 /* ContentView.swift */,
+				33BEEA8625F0701300EE3976 /* Model */,
+				33BEEA8525F0700900EE3976 /* View */,
 				333B295D25EE86CF00A3BFE3 /* Assets.xcassets */,
 				333B296225EE86CF00A3BFE3 /* Info.plist */,
 				333B295F25EE86CF00A3BFE3 /* Preview Content */,
@@ -67,6 +67,22 @@
 				333B296025EE86CF00A3BFE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33BEEA8525F0700900EE3976 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				333B295B25EE86CB00A3BFE3 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33BEEA8625F0701300EE3976 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				333B295925EE86CB00A3BFE3 /* MathPracticeAppApp.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
